@@ -26,7 +26,6 @@ public class Main {
 
         String outputFName = "OUTPUT.TXT";
         Files.writeString(Path.of(outputFName), pos);
-
+        System.out.println("Успешно записано в файл : "+pos);
     }
-
 }
